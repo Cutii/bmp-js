@@ -17,7 +17,7 @@ How to use?
 var bmp = require("bmp-js");
 var bmpBuffer = fs.readFileSync('aa.bmp');
 var bmpData = bmp.decode(bmpBuffer);
-//bmpData={data:Buffer,width:Number,height:Height}
+//bmpData={data:matrix,width:Number,height:Height}
 
 ```
 
